@@ -1,0 +1,10 @@
+{
+  "optionSet" : {
+    "BazelPath" : {
+      "p" : "/usr/local/Cellar/bazel/1.1.0/bin/bazel-real"
+    },
+    "WorkspaceRootPath" : {
+      "p" : "/Users/barbatosso/iOSDev/Junction/works/mediapipe"
+    }
+  }
+}
