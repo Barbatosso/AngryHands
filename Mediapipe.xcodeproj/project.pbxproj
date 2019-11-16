@@ -3434,7 +3434,7 @@
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.prisma-ai.lensa-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = mediapipe/examples/ios/handtrackinggpu;
@@ -4267,7 +4267,7 @@
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
 				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.prisma-ai.lensa-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -4509,7 +4509,7 @@
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
 				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.prisma-ai.lensa-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -4713,7 +4713,7 @@
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.prisma-ai.lensa-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = mediapipe/examples/ios/handtrackinggpu;
