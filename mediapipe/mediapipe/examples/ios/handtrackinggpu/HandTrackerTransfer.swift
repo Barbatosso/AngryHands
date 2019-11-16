@@ -7,12 +7,11 @@
 
 import Foundation
 
-
 final class HandTrackerTransfer {
 
-    private let module = HandModule()
-
+    private let handModule: HandModule
 
     init() {
+        self.handModule = HandModule()
     }
 }
