@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23272888238090F400D61AE6 /* HandTrackerTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23272887238090F400D61AE6 /* HandTrackerTransfer.swift */; };
 		483C90BD00C7232200000000 /* topologicalsorter.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B00C7232200000000 /* topologicalsorter.cc */; };
 		483C90BD00C7232200000001 /* topologicalsorter.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B00C7232200000000 /* topologicalsorter.cc */; };
 		483C90BD01C96AC400000000 /* MPPDisplayLinkWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B01C96AC400000000 /* MPPDisplayLinkWeakTarget.m */; };
@@ -37,6 +36,7 @@
 		483C90BD1C763D6C00000000 /* statusor.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B1C763D6C00000000 /* statusor.cc */; };
 		483C90BD1C763D6C00000001 /* statusor.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B1C763D6C00000000 /* statusor.cc */; };
 		483C90BD1FEF766E00000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B1FEF766E00000000 /* AppDelegate.m */; };
+		483C90BD21994BA600000000 /* HandModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B21994BA600000000 /* HandModule.mm */; };
 		483C90BD256DB96D00000000 /* output_stream_handler.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B256DB96D00000000 /* output_stream_handler.cc */; };
 		483C90BD256DB96D00000001 /* output_stream_handler.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B256DB96D00000000 /* output_stream_handler.cc */; };
 		483C90BD290D1F4F00000000 /* sobel_edges_calculator.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B290D1F4F00000000 /* sobel_edges_calculator.cc */; };
@@ -85,7 +85,6 @@
 		483C90BD6A26E1AD00000000 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6A26E1AD00000000 /* ViewController.mm */; };
 		483C90BD6AC8965C00000000 /* thread_pool_executor.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6AC8965C00000000 /* thread_pool_executor.cc */; };
 		483C90BD6AC8965C00000001 /* thread_pool_executor.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6AC8965C00000000 /* thread_pool_executor.cc */; };
-		483C90BD6ADD6CBE00000000 /* HandModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6ADD6CBE00000000 /* HandModule.mm */; };
 		483C90BD6CB2CC6100000000 /* ret_check.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6CB2CC6100000000 /* ret_check.cc */; };
 		483C90BD6CB2CC6100000001 /* ret_check.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6CB2CC6100000000 /* ret_check.cc */; };
 		483C90BD6D018E3400000000 /* validate_name.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71B6D018E3400000000 /* validate_name.cc */; };
@@ -157,6 +156,7 @@
 		483C90BDBF99A2F700000001 /* gpu_service.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BBF99A2F700000000 /* gpu_service.cc */; };
 		483C90BDC029529000000000 /* registration_token.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BC029529000000000 /* registration_token.cc */; };
 		483C90BDC029529000000001 /* registration_token.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BC029529000000000 /* registration_token.cc */; };
+		483C90BDC309CF4500000000 /* HandTrackerTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BC309CF4500000000 /* HandTrackerTransfer.swift */; };
 		483C90BDC4767EBB00000000 /* MPPInputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BC4767EBB00000000 /* MPPInputSource.m */; };
 		483C90BDC8A4BA7000000000 /* subgraph_expansion.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BC8A4BA7000000000 /* subgraph_expansion.cc */; };
 		483C90BDC8A4BA7000000001 /* subgraph_expansion.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB6BF71BC8A4BA7000000000 /* subgraph_expansion.cc */; };
@@ -334,8 +334,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2327288423808DDB00D61AE6 /* _idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h"; sourceTree = "<group>"; };
-		23272887238090F400D61AE6 /* HandTrackerTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HandTrackerTransfer.swift; path = mediapipe/examples/ios/handtrackinggpu/HandTrackerTransfer.swift; sourceTree = "<group>"; };
 		EB6BF71B0009BFE700000000 /* canonical_errors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = canonical_errors.h; path = mediapipe/framework/deps/canonical_errors.h; sourceTree = "<group>"; };
 		EB6BF71B00C7232200000000 /* topologicalsorter.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = topologicalsorter.cc; path = mediapipe/framework/deps/topologicalsorter.cc; sourceTree = "<group>"; };
 		EB6BF71B011B020700000000 /* gl_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gl_base.h; path = mediapipe/gpu/gl_base.h; sourceTree = "<group>"; };
@@ -387,6 +385,7 @@
 		EB6BF71B1FEF766E00000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mediapipe/examples/ios/facedetectiongpu/AppDelegate.m; sourceTree = "<group>"; };
 		EB6BF71B2062669C00000000 /* validate_name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = validate_name.h; path = mediapipe/framework/tool/validate_name.h; sourceTree = "<group>"; };
 		EB6BF71B2182128F00000000 /* status_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = status_util.h; path = mediapipe/framework/tool/status_util.h; sourceTree = "<group>"; };
+		EB6BF71B21994BA600000000 /* HandModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = HandModule.mm; path = mediapipe/examples/ios/handtrackinggpu/HandModule.mm; sourceTree = "<group>"; };
 		EB6BF71B21EA057700000000 /* calculator_registry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = calculator_registry.h; path = mediapipe/framework/calculator_registry.h; sourceTree = "<group>"; };
 		EB6BF71B222F7CBB00000000 /* image_frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = image_frame.h; path = mediapipe/framework/formats/image_frame.h; sourceTree = "<group>"; };
 		EB6BF71B22725E6600000000 /* source_location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = source_location.h; path = mediapipe/framework/port/source_location.h; sourceTree = "<group>"; };
@@ -495,7 +494,6 @@
 		EB6BF71B6A187EE500000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = mediapipe/examples/ios/objectdetectiongpu/BUILD; sourceTree = "<group>"; };
 		EB6BF71B6A26E1AD00000000 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = mediapipe/examples/ios/facedetectiongpu/ViewController.mm; sourceTree = "<group>"; };
 		EB6BF71B6AC8965C00000000 /* thread_pool_executor.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = thread_pool_executor.cc; path = mediapipe/framework/thread_pool_executor.cc; sourceTree = "<group>"; };
-		EB6BF71B6ADD6CBE00000000 /* HandModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = HandModule.mm; path = mediapipe/examples/ios/handtrackinggpu/HandModule.mm; sourceTree = "<group>"; };
 		EB6BF71B6B934C5600000000 /* MPPLayerRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPPLayerRenderer.h; path = mediapipe/objc/MPPLayerRenderer.h; sourceTree = "<group>"; };
 		EB6BF71B6CB2CC6100000000 /* ret_check.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ret_check.cc; path = mediapipe/framework/deps/ret_check.cc; sourceTree = "<group>"; };
 		EB6BF71B6D018E3400000000 /* validate_name.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = validate_name.cc; path = mediapipe/framework/tool/validate_name.cc; sourceTree = "<group>"; };
@@ -521,6 +519,7 @@
 		EB6BF71B81630CC700000000 /* scheduler_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scheduler_queue.h; path = mediapipe/framework/scheduler_queue.h; sourceTree = "<group>"; };
 		EB6BF71B82B5D2CE00000000 /* lib_idx_scheduler_queue_50CFEC7D_ios_min13.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_scheduler_queue_50CFEC7D_ios_min13.2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6BF71B831A606A00000000 /* calculator_context.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = calculator_context.cc; path = mediapipe/framework/calculator_context.cc; sourceTree = "<group>"; };
+		EB6BF71B834D727A00000000 /* HandModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HandModule.h; path = mediapipe/examples/ios/handtrackinggpu/HandModule.h; sourceTree = "<group>"; };
 		EB6BF71B83B830ED00000000 /* gl_calculator_helper_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gl_calculator_helper_impl.h; path = mediapipe/gpu/gl_calculator_helper_impl.h; sourceTree = "<group>"; };
 		EB6BF71B84D3575F00000000 /* MPPCameraInputSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPPCameraInputSource.h; path = mediapipe/objc/MPPCameraInputSource.h; sourceTree = "<group>"; };
 		EB6BF71B84F88CAA00000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = mediapipe/examples/ios/objectdetectiongpu/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -559,7 +558,6 @@
 		EB6BF71B9F30D9FC00000000 /* calculator_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = calculator_framework.h; path = mediapipe/framework/calculator_framework.h; sourceTree = "<group>"; };
 		EB6BF71B9F842CB600000000 /* calculator_registry_util.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = calculator_registry_util.cc; path = mediapipe/framework/calculator_registry_util.cc; sourceTree = "<group>"; };
 		EB6BF71B9FB9FE5A00000000 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = mediapipe/examples/ios/facedetectioncpu/ViewController.mm; sourceTree = "<group>"; };
-		EB6BF71BA1563C0100000000 /* HandModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HandModule.h; path = mediapipe/examples/ios/handtrackinggpu/HandModule.h; sourceTree = "<group>"; };
 		EB6BF71BA168C5BD00000000 /* status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = status.h; path = mediapipe/framework/deps/status.h; sourceTree = "<group>"; };
 		EB6BF71BA173793E00000000 /* lib_idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6BF71BA1961BA900000000 /* calculator_base.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = calculator_base.cc; path = mediapipe/framework/calculator_base.cc; sourceTree = "<group>"; };
@@ -605,6 +603,7 @@
 		EB6BF71BC0E9230E00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/mediapipe/examples/ios/objectdetectioncpu/ObjectDetectionCpuApp-intermediates/Info.plist"; sourceTree = "<group>"; };
 		EB6BF71BC1092A1700000000 /* gl_calculator_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gl_calculator_helper.h; path = mediapipe/gpu/gl_calculator_helper.h; sourceTree = "<group>"; };
 		EB6BF71BC1AA04FC00000000 /* no_destructor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = no_destructor.h; path = mediapipe/framework/deps/no_destructor.h; sourceTree = "<group>"; };
+		EB6BF71BC309CF4500000000 /* HandTrackerTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HandTrackerTransfer.swift; path = mediapipe/examples/ios/handtrackinggpu/HandTrackerTransfer.swift; sourceTree = "<group>"; };
 		EB6BF71BC39F056F00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = mediapipe/examples/ios/BUILD; sourceTree = "<group>"; };
 		EB6BF71BC4767EBB00000000 /* MPPInputSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPPInputSource.m; path = mediapipe/objc/MPPInputSource.m; sourceTree = "<group>"; };
 		EB6BF71BC51A1F0100000000 /* thread_pool_executor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = thread_pool_executor.h; path = mediapipe/framework/thread_pool_executor.h; sourceTree = "<group>"; };
@@ -618,6 +617,7 @@
 		EB6BF71BCA72C0F200000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mediapipe/examples/ios/handdetectiongpu/AppDelegate.m; sourceTree = "<group>"; };
 		EB6BF71BCBC5055300000000 /* calculator_context_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = calculator_context_manager.h; path = mediapipe/framework/calculator_context_manager.h; sourceTree = "<group>"; };
 		EB6BF71BCC4AFAFD00000000 /* MPPPlayerInputSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPPPlayerInputSource.h; path = mediapipe/objc/MPPPlayerInputSource.h; sourceTree = "<group>"; };
+		EB6BF71BCCD23E6000000000 /* _idx_ARAngryBirds_2F58DD3B_ios_min10.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_ARAngryBirds_2F58DD3B_ios_min10.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6BF71BCD3CEFDF00000000 /* gl_calculator_helper_impl_ios.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = gl_calculator_helper_impl_ios.mm; path = mediapipe/gpu/gl_calculator_helper_impl_ios.mm; sourceTree = "<group>"; };
 		EB6BF71BCDDD062300000000 /* packet_generator_graph.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = packet_generator_graph.cc; path = mediapipe/framework/packet_generator_graph.cc; sourceTree = "<group>"; };
 		EB6BF71BCEEAA4FC00000000 /* lib_idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -758,14 +758,13 @@
 				EB6BF71B485BCEC100000000 /* AppDelegate.h */,
 				EB6BF71B99FD222500000000 /* AppDelegate.m */,
 				EB6BF71B23728C7900000000 /* BUILD */,
+				EB6BF71B834D727A00000000 /* HandModule.h */,
+				EB6BF71B21994BA600000000 /* HandModule.mm */,
+				EB6BF71BC309CF4500000000 /* HandTrackerTransfer.swift */,
 				EB6BF71B1102B33700000000 /* Info.plist */,
 				1549C326126D1E1F00000004 /* LaunchScreen.storyboard */,
 				1549C326600C643A00000004 /* Main.storyboard */,
-				EB6BF71BA1563C0100000000 /* HandModule.h */,
-				EB6BF71B6ADD6CBE00000000 /* HandModule.mm */,
 				EB6BF71BB060240100000000 /* main.m */,
-				2327288423808DDB00D61AE6 /* _idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h */,
-				23272887238090F400D61AE6 /* HandTrackerTransfer.swift */,
 			);
 			name = handtrackinggpu;
 			sourceTree = "<group>";
@@ -1306,6 +1305,7 @@
 		7F83339FCFA5C47200000000 /* Indexer */ = {
 			isa = PBXGroup;
 			children = (
+				EB6BF71BCCD23E6000000000 /* _idx_ARAngryBirds_2F58DD3B_ios_min10.0.framework */,
 				EB6BF71BB85F215400000000 /* lib_idx_MPPGraphGPUData_641C4BE8_ios_min10.0.a */,
 				EB6BF71B4E9BE9E600000000 /* lib_idx_MPPGraphGPUData_641C4BE8_ios_min13.2.a */,
 				EB6BF71B066F9E8400000000 /* lib_idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0.a */,
@@ -1473,7 +1473,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A57CDAC61700000000 /* Build configuration list for PBXNativeTarget "_idx_gl_context_21B0DC61_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D7000000000000000B /* Sources */,
+				6C2FE3D7000000000000000F /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1507,45 +1507,45 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5D4B6D1EA00000000 /* Build configuration list for PBXNativeTarget "_idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000004 /* Sources */,
+				6C2FE3D70000000000000002 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723B5663F62900000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723B36E2FB9F00000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BC0B339C500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
-				9E97723B5663F62900000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723B5663F62900000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723B36E2FB9F00000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723B695C7ADB00000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723B36E2FB9F00000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723B5663F62900000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723B5663F62900000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723B5663F62900000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 			);
 			name = _idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0;
 			productName = _idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0;
@@ -1556,15 +1556,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A57CC2FF1D00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000013 /* Sources */,
+				6C2FE3D70000000000000014 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
 				9E97723BA1D8D47F00000000 /* PBXTargetDependency */,
-				9E97723B4F86C90D00000000 /* PBXTargetDependency */,
 				9E97723BA1D8D47F00000000 /* PBXTargetDependency */,
+				9E97723B4F86C90D00000000 /* PBXTargetDependency */,
 			);
 			name = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
 			productName = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
@@ -1607,7 +1607,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5FC5D3D5800000000 /* Build configuration list for PBXNativeTarget "_idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000007 /* Sources */,
+				6C2FE3D70000000000000006 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1623,7 +1623,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5A15D65E200000000 /* Build configuration list for PBXNativeTarget "_idx_gpu_buffer_format_gl_quad_renderer_A0DA5A6F_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000015 /* Sources */,
+				6C2FE3D70000000000000016 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1647,9 +1647,9 @@
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723B4094904F00000000 /* PBXTargetDependency */,
-				9E97723B4094904F00000000 /* PBXTargetDependency */,
 				9E97723BC024360F00000000 /* PBXTargetDependency */,
+				9E97723B4094904F00000000 /* PBXTargetDependency */,
+				9E97723B4094904F00000000 /* PBXTargetDependency */,
 			);
 			name = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min13.2;
 			productName = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min13.2;
@@ -1660,7 +1660,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5E912BC5400000000 /* Build configuration list for PBXNativeTarget "_idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D7000000000000000D /* Sources */,
+				6C2FE3D7000000000000000E /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1676,7 +1676,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A55F62047F00000000 /* Build configuration list for PBXNativeTarget "_idx_profiler_resource_util_B1F7EC4E_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000002 /* Sources */,
+				6C2FE3D70000000000000005 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1708,7 +1708,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5A070CD8900000000 /* Build configuration list for PBXNativeTarget "_idx_mediapipe_input_sources_ios_D2A2AE4C_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000016 /* Sources */,
+				6C2FE3D70000000000000017 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1740,7 +1740,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A575A4E95900000000 /* Build configuration list for PBXNativeTarget "_idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000005 /* Sources */,
+				6C2FE3D70000000000000009 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1750,11 +1750,11 @@
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
@@ -1794,12 +1794,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A55F8CADC000000000 /* Build configuration list for PBXNativeTarget "_idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D70000000000000010 /* Sources */,
+				6C2FE3D70000000000000013 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
@@ -1815,13 +1822,6 @@
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B4094904F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 			);
 			name = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 			productName = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
@@ -1832,15 +1832,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5C2C7CE0F00000000 /* Build configuration list for PBXNativeTarget "_idx_MPPGraphGPUData_641C4BE8_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D7000000000000000A /* Sources */,
+				6C2FE3D7000000000000000B /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B004FD98700000000 /* PBXTargetDependency */,
 				9E97723BCFD10C0B00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 			);
 			name = _idx_MPPGraphGPUData_641C4BE8_ios_min13.2;
 			productName = _idx_MPPGraphGPUData_641C4BE8_ios_min13.2;
@@ -1873,15 +1873,31 @@
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723B5663F62900000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 			);
 			name = _idx_scheduler_queue_50CFEC7D_ios_min10.0;
 			productName = _idx_scheduler_queue_50CFEC7D_ios_min10.0;
 			productReference = EB6BF71BF2D0365800000000 /* lib_idx_scheduler_queue_50CFEC7D_ios_min10.0.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		73E7695869F570EE00000000 /* _idx_ARAngryBirds_2F58DD3B_ios_min10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95333A57628528C00000000 /* Build configuration list for PBXNativeTarget "_idx_ARAngryBirds_2F58DD3B_ios_min10.0" */;
+			buildPhases = (
+				6C2FE3D70000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
+			);
+			name = _idx_ARAngryBirds_2F58DD3B_ios_min10.0;
+			productName = _idx_ARAngryBirds_2F58DD3B_ios_min10.0;
+			productReference = EB6BF71BCCD23E6000000000 /* _idx_ARAngryBirds_2F58DD3B_ios_min10.0.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		73E769586F0AAEE400000000 /* mediapipe-objc-mediapipe_framework_ios */ = {
 			isa = PBXNativeTarget;
@@ -1903,7 +1919,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5B8E14D8300000000 /* Build configuration list for PBXNativeTarget "_idx_gpu_buffer_format_1C5129DA_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D70000000000000017 /* Sources */,
+				6C2FE3D70000000000000018 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1919,22 +1935,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A557551D8700000000 /* Build configuration list for PBXNativeTarget "_idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000014 /* Sources */,
+				6C2FE3D70000000000000015 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
+				9E97723B3A0BD5D100000000 /* PBXTargetDependency */,
+				9E97723B36E2FB9F00000000 /* PBXTargetDependency */,
 				9E97723B17158EF900000000 /* PBXTargetDependency */,
 				9E97723BC0DAD10D00000000 /* PBXTargetDependency */,
-				9E97723B3A0BD5D100000000 /* PBXTargetDependency */,
+				9E97723BC0B339C500000000 /* PBXTargetDependency */,
 				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723B36E2FB9F00000000 /* PBXTargetDependency */,
+				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
 				9E97723BD3CEC15F00000000 /* PBXTargetDependency */,
 				9E97723B17158EF900000000 /* PBXTargetDependency */,
-				9E97723B36E2FB9F00000000 /* PBXTargetDependency */,
-				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
-				9E97723BC0B339C500000000 /* PBXTargetDependency */,
 			);
 			name = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
 			productName = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
@@ -1945,14 +1961,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5E49B651E00000000 /* Build configuration list for PBXNativeTarget "_idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000001 /* Sources */,
+				6C2FE3D70000000000000003 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723B41E3CA7F00000000 /* PBXTargetDependency */,
 				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
+				9E97723B41E3CA7F00000000 /* PBXTargetDependency */,
 				9E97723BC41BD6E900000000 /* PBXTargetDependency */,
 			);
 			name = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
@@ -1964,15 +1980,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A51A63357800000000 /* Build configuration list for PBXNativeTarget "_idx_mediapipe_framework_ios_D556C68D_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D70000000000000018 /* Sources */,
+				6C2FE3D70000000000000019 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723B010BACF700000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723BCFD10C0B00000000 /* PBXTargetDependency */,
+				9E97723B010BACF700000000 /* PBXTargetDependency */,
 				9E97723B612CB01300000000 /* PBXTargetDependency */,
 			);
 			name = _idx_mediapipe_framework_ios_D556C68D_ios_min13.2;
@@ -1984,7 +2000,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5C621233600000000 /* Build configuration list for PBXNativeTarget "_idx_profiler_resource_util_B1F7EC4E_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D7000000000000000E /* Sources */,
+				6C2FE3D7000000000000000D /* Sources */,
 			);
 			buildRules = (
 			);
@@ -2000,7 +2016,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A56750B5AE00000000 /* Build configuration list for PBXNativeTarget "_idx_pixel_buffer_pool_util_07EBF31A_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000006 /* Sources */,
+				6C2FE3D70000000000000007 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -2016,14 +2032,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5A49A968E00000000 /* Build configuration list for PBXNativeTarget "_idx_MPPGraphGPUData_641C4BE8_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000000 /* Sources */,
+				6C2FE3D70000000000000001 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723B17158EF900000000 /* PBXTargetDependency */,
+				9E97723BAA4AE4B500000000 /* PBXTargetDependency */,
 				9E97723BD3CEC15F00000000 /* PBXTargetDependency */,
 			);
 			name = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
@@ -2035,7 +2051,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A569635DB500000000 /* Build configuration list for PBXNativeTarget "_idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000003 /* Sources */,
+				6C2FE3D70000000000000004 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -2051,41 +2067,41 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5ECC4F26900000000 /* Build configuration list for PBXNativeTarget "_idx_util_calculator_graph_gpu_buffer_multi_pool_sink_D2E08072_ios_min13.2" */;
 			buildPhases = (
-				6C2FE3D7000000000000000F /* Sources */,
+				6C2FE3D70000000000000010 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
-				9E97723B5B2182D100000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B010BACF700000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B4094904F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B5B2182D100000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B5B2182D100000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723BDC13E06F00000000 /* PBXTargetDependency */,
+				9E97723B5B2182D100000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B5B2182D100000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B5B2182D100000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B4094904F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 			);
@@ -2098,7 +2114,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C95333A5DD5ED60E00000000 /* Build configuration list for PBXNativeTarget "_idx_gl_context_21B0DC61_ios_min10.0" */;
 			buildPhases = (
-				6C2FE3D70000000000000009 /* Sources */,
+				6C2FE3D7000000000000000A /* Sources */,
 			);
 			buildRules = (
 			);
@@ -2122,10 +2138,10 @@
 			);
 			dependencies = (
 				9E97723BA1481B6D00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
+				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 				9E97723B5B2182D100000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
-				9E97723B3F2A0F2F00000000 /* PBXTargetDependency */,
 			);
 			name = _idx_scheduler_queue_50CFEC7D_ios_min13.2;
 			productName = _idx_scheduler_queue_50CFEC7D_ios_min13.2;
@@ -2156,11 +2172,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 1000;
-				TargetAttributes = {
-					73E76958C0DAD10C00000000 = {
-						LastSwiftMigration = 1120;
-					};
-				};
 			};
 			buildConfigurationList = C95333A5B85BABA600000000 /* Build configuration list for PBXProject "Mediapipe" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2183,6 +2194,7 @@
 				73E76958F72EE5EE00000000 /* ObjectDetectionCpuApp */,
 				73E769585505F03A00000000 /* ObjectDetectionGpuApp */,
 				20928283A1481B6C00000000 /* _bazel_clean_ */,
+				73E7695869F570EE00000000 /* _idx_ARAngryBirds_2F58DD3B_ios_min10.0 */,
 				73E76958C0DAD10C00000000 /* _idx_MPPGraphGPUData_641C4BE8_ios_min10.0 */,
 				73E76958612CB01200000000 /* _idx_MPPGraphGPUData_641C4BE8_ios_min13.2 */,
 				73E769581D3DEB0400000000 /* _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0 */,
@@ -2333,13 +2345,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BD068EC8BA00000000 /* MPPGraphGPUData.mm in Sources */,
-				23272888238090F400D61AE6 /* HandTrackerTransfer.swift in Sources */,
-				483C90BDE509B0D800000000 /* gpu_shared_data_internal.cc in Sources */,
+				483C90BDC309CF4500000000 /* HandTrackerTransfer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6C2FE3D70000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				483C90BD068EC8BA00000000 /* MPPGraphGPUData.mm in Sources */,
+				483C90BDE509B0D800000000 /* gpu_shared_data_internal.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2FE3D70000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				483C90BD436E916200000000 /* util.cc in Sources */,
+				483C90BDB7D4EB2F00000000 /* calculator_graph.cc in Sources */,
+				483C90BD79CC416000000000 /* scheduler.cc in Sources */,
+				483C90BD0AD6E49A00000000 /* gl_simple_calculator.cc in Sources */,
+				483C90BD4086D2CC00000000 /* gpu_buffer_multi_pool.cc in Sources */,
+				483C90BDB08B295F00000000 /* luminance_calculator.cc in Sources */,
+				483C90BD046B3B8300000000 /* sink.cc in Sources */,
+				483C90BD290D1F4F00000000 /* sobel_edges_calculator.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2FE3D70000000000000003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2392,15 +2426,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000002 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				483C90BDAEC017FE00000000 /* profiler_resource_util_apple.cc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C2FE3D70000000000000003 /* Sources */ = {
+		6C2FE3D70000000000000004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2411,32 +2437,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000004 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				483C90BD436E916200000000 /* util.cc in Sources */,
-				483C90BDB7D4EB2F00000000 /* calculator_graph.cc in Sources */,
-				483C90BD79CC416000000000 /* scheduler.cc in Sources */,
-				483C90BD0AD6E49A00000000 /* gl_simple_calculator.cc in Sources */,
-				483C90BD4086D2CC00000000 /* gpu_buffer_multi_pool.cc in Sources */,
-				483C90BDB08B295F00000000 /* luminance_calculator.cc in Sources */,
-				483C90BD046B3B8300000000 /* sink.cc in Sources */,
-				483C90BD290D1F4F00000000 /* sobel_edges_calculator.cc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C2FE3D70000000000000005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BD7639A05C00000000 /* output_stream_manager.cc in Sources */,
-				483C90BD3488476E00000000 /* calculator_node.cc in Sources */,
-				483C90BDB88CBB9F00000000 /* default_input_stream_handler.cc in Sources */,
-				483C90BD06FAA58E00000000 /* graph_output_stream.cc in Sources */,
-				483C90BDE040EDD400000000 /* in_order_output_stream_handler.cc in Sources */,
-				483C90BD4D2C7A1700000000 /* input_stream_handler.cc in Sources */,
-				483C90BD256DB96D00000000 /* output_stream_handler.cc in Sources */,
+				483C90BDAEC017FE00000000 /* profiler_resource_util_apple.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2444,7 +2449,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BD48E1AC5E00000000 /* pixel_buffer_pool_util.mm in Sources */,
+				483C90BD95AA1B3800000000 /* shader_util.cc in Sources */,
+				483C90BD3706B50C00000000 /* gl_simple_shaders.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2452,8 +2458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BD95AA1B3800000000 /* shader_util.cc in Sources */,
-				483C90BD3706B50C00000000 /* gl_simple_shaders.cc in Sources */,
+				483C90BD48E1AC5E00000000 /* pixel_buffer_pool_util.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2469,8 +2474,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BDB8AFA50800000000 /* gl_context.cc in Sources */,
-				483C90BD16D623CA00000000 /* gl_context_eagl.cc in Sources */,
+				483C90BD7639A05C00000000 /* output_stream_manager.cc in Sources */,
+				483C90BD3488476E00000000 /* calculator_node.cc in Sources */,
+				483C90BDB88CBB9F00000000 /* default_input_stream_handler.cc in Sources */,
+				483C90BD06FAA58E00000000 /* graph_output_stream.cc in Sources */,
+				483C90BDE040EDD400000000 /* in_order_output_stream_handler.cc in Sources */,
+				483C90BD4D2C7A1700000000 /* input_stream_handler.cc in Sources */,
+				483C90BD256DB96D00000000 /* output_stream_handler.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2478,8 +2488,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BD068EC8BA00000001 /* MPPGraphGPUData.mm in Sources */,
-				483C90BDE509B0D800000001 /* gpu_shared_data_internal.cc in Sources */,
+				483C90BDB8AFA50800000000 /* gl_context.cc in Sources */,
+				483C90BD16D623CA00000000 /* gl_context_eagl.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2487,8 +2497,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BDB8AFA50800000001 /* gl_context.cc in Sources */,
-				483C90BD16D623CA00000001 /* gl_context_eagl.cc in Sources */,
+				483C90BD068EC8BA00000001 /* MPPGraphGPUData.mm in Sources */,
+				483C90BDE509B0D800000001 /* gpu_shared_data_internal.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2549,10 +2559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BD00C7232200000001 /* topologicalsorter.cc in Sources */,
-				483C90BD9361207E00000001 /* collection_item_id.cc in Sources */,
-				483C90BDBF99A2F700000001 /* gpu_service.cc in Sources */,
-				483C90BDC029529000000001 /* registration_token.cc in Sources */,
+				483C90BDAEC017FE00000001 /* profiler_resource_util_apple.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2560,11 +2567,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				483C90BDAEC017FE00000001 /* profiler_resource_util_apple.cc in Sources */,
+				483C90BD00C7232200000001 /* topologicalsorter.cc in Sources */,
+				483C90BD9361207E00000001 /* collection_item_id.cc in Sources */,
+				483C90BDBF99A2F700000001 /* gpu_service.cc in Sources */,
+				483C90BDC029529000000001 /* registration_token.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6C2FE3D7000000000000000F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				483C90BDB8AFA50800000001 /* gl_context.cc in Sources */,
+				483C90BD16D623CA00000001 /* gl_context_eagl.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2FE3D70000000000000010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2573,20 +2592,6 @@
 				483C90BD79CC416000000001 /* scheduler.cc in Sources */,
 				483C90BD4086D2CC00000001 /* gpu_buffer_multi_pool.cc in Sources */,
 				483C90BD046B3B8300000001 /* sink.cc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C2FE3D70000000000000010 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				483C90BD7639A05C00000001 /* output_stream_manager.cc in Sources */,
-				483C90BD3488476E00000001 /* calculator_node.cc in Sources */,
-				483C90BDB88CBB9F00000001 /* default_input_stream_handler.cc in Sources */,
-				483C90BD06FAA58E00000001 /* graph_output_stream.cc in Sources */,
-				483C90BDE040EDD400000001 /* in_order_output_stream_handler.cc in Sources */,
-				483C90BD4D2C7A1700000001 /* input_stream_handler.cc in Sources */,
-				483C90BD256DB96D00000001 /* output_stream_handler.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2610,6 +2615,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				483C90BD7639A05C00000001 /* output_stream_manager.cc in Sources */,
+				483C90BD3488476E00000001 /* calculator_node.cc in Sources */,
+				483C90BDB88CBB9F00000001 /* default_input_stream_handler.cc in Sources */,
+				483C90BD06FAA58E00000001 /* graph_output_stream.cc in Sources */,
+				483C90BDE040EDD400000001 /* in_order_output_stream_handler.cc in Sources */,
+				483C90BD4D2C7A1700000001 /* input_stream_handler.cc in Sources */,
+				483C90BD256DB96D00000001 /* output_stream_handler.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2FE3D70000000000000014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
 				483C90BD699F0A9100000000 /* AppDelegate.m in Sources */,
 				483C90BD78BEB42300000000 /* ViewController.mm in Sources */,
 				483C90BD7762360600000000 /* main.m in Sources */,
@@ -2626,7 +2645,7 @@
 				483C90BDEB06BCF000000000 /* ViewController.mm in Sources */,
 				483C90BDEB1D9A4D00000000 /* main.m in Sources */,
 				483C90BD99FD222500000000 /* AppDelegate.m in Sources */,
-				483C90BD6ADD6CBE00000000 /* HandModule.mm in Sources */,
+				483C90BD21994BA600000000 /* HandModule.mm in Sources */,
 				483C90BDB060240100000000 /* main.m in Sources */,
 				483C90BDFF66109F00000000 /* AppDelegate.m in Sources */,
 				483C90BD15E1466600000000 /* ViewController.mm in Sources */,
@@ -2634,7 +2653,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000014 /* Sources */ = {
+		6C2FE3D70000000000000015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2649,7 +2668,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000015 /* Sources */ = {
+		6C2FE3D70000000000000016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2658,7 +2677,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000016 /* Sources */ = {
+		6C2FE3D70000000000000017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2669,7 +2688,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000017 /* Sources */ = {
+		6C2FE3D70000000000000018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2677,7 +2696,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2FE3D70000000000000018 /* Sources */ = {
+		6C2FE3D70000000000000019 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -2923,7 +2942,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2327284E23807F2A00D61AE6 /* Debug */ = {
+		232728C12380B00300D61AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -2933,7 +2952,7 @@
 			};
 			name = Debug;
 		};
-		2327284F23807F2A00D61AE6 /* Release */ = {
+		232728C22380B00300D61AE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -2942,372 +2961,378 @@
 			};
 			name = Release;
 		};
-		2327285023807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728C32380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285123807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728C42380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285223807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728C52380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
-				SWIFT_OBJC_BRIDGING_HEADER = "mediapipe/_idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = _idx_ARAngryBirds_2F58DD3B_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285323807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728C62380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
-				SWIFT_OBJC_BRIDGING_HEADER = "mediapipe/_idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_NAME = _idx_ARAngryBirds_2F58DD3B_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285423807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728C72380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		232728C82380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		232728C92380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285523807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728CA2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285623807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728CB2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285723807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728CC2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285823807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728CD2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285923807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728CE2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285A23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728CF2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285B23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728D02380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285C23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728D12380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gpu_buffer_format_1C5129DA_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285D23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728D22380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gpu_buffer_format_1C5129DA_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327285E23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728D32380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gpu_buffer_format_gl_quad_renderer_A0DA5A6F_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327285F23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728D42380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_gpu_buffer_format_gl_quad_renderer_A0DA5A6F_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286023807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728D52380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_mediapipe_framework_ios_D556C68D_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286123807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728D62380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_mediapipe_framework_ios_D556C68D_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286223807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728D72380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_mediapipe_input_sources_ios_D2A2AE4C_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286323807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728D82380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_mediapipe_input_sources_ios_D2A2AE4C_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286423807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728D92380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286523807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728DA2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286623807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728DB2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286723807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728DC2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286823807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728DD2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286923807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728DE2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286A23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728DF2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_pixel_buffer_pool_util_07EBF31A_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286B23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728E02380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_pixel_buffer_pool_util_07EBF31A_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286C23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728E12380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_pixel_buffer_pool_util_07EBF31A_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286D23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728E22380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_pixel_buffer_pool_util_07EBF31A_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327286E23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728E32380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327286F23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728E42380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287023807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728E52380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287123807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728E62380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287223807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728E72380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_scheduler_queue_50CFEC7D_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287323807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728E82380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_scheduler_queue_50CFEC7D_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287423807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728E92380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_scheduler_queue_50CFEC7D_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287523807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728EA2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_scheduler_queue_50CFEC7D_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287623807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728EB2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287723807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728EC2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287823807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728ED2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287923807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728EE2380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287A23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728EF2380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287B23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728F02380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287C23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728F12380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287D23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728F22380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327287E23807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728F32380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_util_calculator_graph_gpu_buffer_multi_pool_sink_D2E08072_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327287F23807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728F42380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_util_calculator_graph_gpu_buffer_multi_pool_sink_D2E08072_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327288023807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728F52380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327288123807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728F62380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		2327288223807F2A00D61AE6 /* __TulsiTestRunner_Debug */ = {
+		232728F72380B00300D61AE6 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min13.2;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		2327288323807F2A00D61AE6 /* __TulsiTestRunner_Release */ = {
+		232728F82380B00300D61AE6 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min13.2;
@@ -3348,6 +3373,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PYTHONIOENCODING = utf8;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
 				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
 				TULSI_PROJECT = Mediapipe;
 				TULSI_VERSION = 0.20191023.88;
@@ -3432,7 +3458,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MEH36U69XD.com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = mediapipe/examples/ios/handtrackinggpu;
@@ -3477,7 +3503,28 @@
 		3E53954B04D8CE9F00000008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_ARAngryBirds_2F58DD3B_ios_min10.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/x/x/mediapipe/examples/ios/handtrackinggpu";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F00000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3503,7 +3550,6 @@
 					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = (
 					"-x",
 					"objective-c++",
@@ -3517,67 +3563,11 @@
 				);
 				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "mediapipe/_idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
-		3E53954B04D8CE9F00000009 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
-				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
 		};
 		3E53954B04D8CE9F0000000A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-ObjC++",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min10.0;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
-		3E53954B04D8CE9F0000000B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
-		3E53954B04D8CE9F0000000C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -3597,26 +3587,79 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F0000000D /* Release */ = {
+		3E53954B04D8CE9F0000000B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
-					"-DMEDIAPIPE_PROFILER_AVAILABLE",
 					"-D_FORTIFY_SOURCE=1",
 					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
 					"-D__DATE__=\"redacted\"",
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0;
+				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F0000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F0000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-ObjC++",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min10.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
 		};
 		3E53954B04D8CE9F0000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F0000000F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -3633,24 +3676,6 @@
 					"-D__TIME__=\"redacted\"",
 				);
 				PRODUCT_NAME = _idx_pixel_buffer_pool_util_07EBF31A_ios_min10.0;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
-		3E53954B04D8CE9F0000000F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-DGLES_SILENCE_DEPRECATION=1",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
@@ -3682,6 +3707,25 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F00000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
 					"-x",
 					"objective-c++",
 					"-fobjc-arc",
@@ -3699,7 +3743,7 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F00000012 /* Release */ = {
+		3E53954B04D8CE9F00000013 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -3744,29 +3788,6 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F00000013 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				OTHER_CFLAGS = (
-					"-x",
-					"objective-c++",
-					"-fobjc-arc",
-					"-DGLES_SILENCE_DEPRECATION=1",
-					"-DMEDIAPIPE_PROFILER_AVAILABLE",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min13.2;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
 		3E53954B04D8CE9F00000014 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3791,23 +3812,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
-		3E53954B04D8CE9F00000016 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				OTHER_CFLAGS = (
 					"-ObjC++",
 					"-D_FORTIFY_SOURCE=1",
 					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
@@ -3821,7 +3825,47 @@
 			};
 			name = Release;
 		};
+		3E53954B04D8CE9F00000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
 		3E53954B04D8CE9F00000017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+					"-fobjc-arc",
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min13.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F00000018 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -3836,25 +3880,6 @@
 					"-D__TIME__=\"redacted\"",
 				);
 				PRODUCT_NAME = _idx_util_calculator_graph_gpu_buffer_multi_pool_sink_D2E08072_ios_min13.2;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Release;
-		};
-		3E53954B04D8CE9F00000018 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				OTHER_CFLAGS = (
-					"-DMEDIAPIPE_PROFILER_AVAILABLE",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
@@ -3906,32 +3931,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
-					"$(TULSI_WR)/external/google_toolbox_for_mac",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/",
-					"$(TULSI_WR)/external/com_google_protobuf/src",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
-					"$(TULSI_WR)/external/zlib_archive",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/zlib_archive",
-					"$(TULSI_WR)/external/com_github_glog_glog/src",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
-					"$(TULSI_BWRS)/external/google_toolbox_for_mac",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
-					"$(TULSI_BWRS)/external/com_google_protobuf/src",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
-					"$(TULSI_BWRS)/external/zlib_archive",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/zlib_archive",
-					"$(TULSI_BWRS)/external/com_github_glog_glog/src",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				OTHER_CFLAGS = (
-					"-DGLES_SILENCE_DEPRECATION=1",
 					"-DMEDIAPIPE_PROFILER_AVAILABLE",
 					"-D_FORTIFY_SOURCE=1",
 					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
@@ -3939,7 +3940,7 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
+				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
@@ -3982,13 +3983,56 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
+				PRODUCT_NAME = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
 		};
 		3E53954B04D8CE9F0000001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_WR)/external/google_toolbox_for_mac",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_WR)/external/com_google_protobuf/src",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+					"$(TULSI_WR)/external/zlib_archive",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/zlib_archive",
+					"$(TULSI_WR)/external/com_github_glog_glog/src",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_BWRS)/external/google_toolbox_for_mac",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/external/com_google_protobuf/src",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+					"$(TULSI_BWRS)/external/zlib_archive",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/zlib_archive",
+					"$(TULSI_BWRS)/external/com_github_glog_glog/src",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		3E53954B04D8CE9F0000001E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -4007,7 +4051,7 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F0000001E /* Release */ = {
+		3E53954B04D8CE9F0000001F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -4029,7 +4073,7 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F0000001F /* Release */ = {
+		3E53954B04D8CE9F00000020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -4048,7 +4092,7 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F00000020 /* Release */ = {
+		3E53954B04D8CE9F00000021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -4091,7 +4135,7 @@
 			};
 			name = Release;
 		};
-		3E53954B04D8CE9F00000021 /* Release */ = {
+		3E53954B04D8CE9F00000022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -4141,6 +4185,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.1;
 				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
 				TULSI_PROJECT = Mediapipe;
 				TULSI_VERSION = 0.20191023.88;
@@ -4263,7 +4308,7 @@
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
 				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MEH36U69XD.com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -4381,6 +4426,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.1;
 				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
 				TULSI_PROJECT = Mediapipe;
 				TULSI_VERSION = 0.20191023.88;
@@ -4503,7 +4549,7 @@
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
 				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MEH36U69XD.com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -4621,6 +4667,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PYTHONIOENCODING = utf8;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
 				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
 				TULSI_PROJECT = Mediapipe;
 				TULSI_VERSION = 0.20191023.88;
@@ -4705,7 +4752,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidly.app;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = mediapipe/examples/ios/handtrackinggpu;
@@ -4750,7 +4797,28 @@
 		3E53954BFDDC19D400000008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_ARAngryBirds_2F58DD3B_ios_min10.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/x/x/mediapipe/examples/ios/handtrackinggpu";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D400000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4776,7 +4844,6 @@
 					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = (
 					"-x",
 					"objective-c++",
@@ -4790,67 +4857,11 @@
 				);
 				PRODUCT_NAME = _idx_MPPGraphGPUData_641C4BE8_ios_min10.0;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "mediapipe/_idx_MPPGraphGPUData_641C4BE8_ios_min10.0-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		3E53954BFDDC19D400000009 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
-				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Debug;
 		};
 		3E53954BFDDC19D40000000A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-ObjC++",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min10.0;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		3E53954BFDDC19D40000000B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		3E53954BFDDC19D40000000C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -4870,26 +4881,79 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D40000000D /* Debug */ = {
+		3E53954BFDDC19D40000000B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
-					"-DMEDIAPIPE_PROFILER_AVAILABLE",
 					"-D_FORTIFY_SOURCE=1",
 					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
 					"-D__DATE__=\"redacted\"",
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0;
+				PRODUCT_NAME = _idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D40000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D40000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-ObjC++",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_profiler_resource_util_B1F7EC4E_ios_min10.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Debug;
 		};
 		3E53954BFDDC19D40000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D40000000F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -4906,24 +4970,6 @@
 					"-D__TIME__=\"redacted\"",
 				);
 				PRODUCT_NAME = _idx_pixel_buffer_pool_util_07EBF31A_ios_min10.0;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		3E53954BFDDC19D40000000F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_CFLAGS = (
-					"-DGLES_SILENCE_DEPRECATION=1",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
@@ -4955,6 +5001,25 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D400000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
 					"-x",
 					"objective-c++",
 					"-fobjc-arc",
@@ -4972,7 +5037,7 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D400000012 /* Debug */ = {
+		3E53954BFDDC19D400000013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5017,29 +5082,6 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D400000013 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				OTHER_CFLAGS = (
-					"-x",
-					"objective-c++",
-					"-fobjc-arc",
-					"-DGLES_SILENCE_DEPRECATION=1",
-					"-DMEDIAPIPE_PROFILER_AVAILABLE",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min13.2;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
 		3E53954BFDDC19D400000014 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5064,23 +5106,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		3E53954BFDDC19D400000016 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				OTHER_CFLAGS = (
 					"-ObjC++",
 					"-D_FORTIFY_SOURCE=1",
 					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
@@ -5094,7 +5119,47 @@
 			};
 			name = Debug;
 		};
+		3E53954BFDDC19D400000016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
 		3E53954BFDDC19D400000017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+					"-fobjc-arc",
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_gl_context_21B0DC61_ios_min13.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D400000018 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5109,25 +5174,6 @@
 					"-D__TIME__=\"redacted\"",
 				);
 				PRODUCT_NAME = _idx_util_calculator_graph_gpu_buffer_multi_pool_sink_D2E08072_ios_min13.2;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		3E53954BFDDC19D400000018 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				OTHER_CFLAGS = (
-					"-DMEDIAPIPE_PROFILER_AVAILABLE",
-					"-D_FORTIFY_SOURCE=1",
-					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
@@ -5179,32 +5225,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
-					"$(TULSI_WR)/external/google_toolbox_for_mac",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/",
-					"$(TULSI_WR)/external/com_google_protobuf/src",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
-					"$(TULSI_WR)/external/zlib_archive",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/zlib_archive",
-					"$(TULSI_WR)/external/com_github_glog_glog/src",
-					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
-					"$(TULSI_BWRS)/external/google_toolbox_for_mac",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
-					"$(TULSI_BWRS)/external/com_google_protobuf/src",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
-					"$(TULSI_BWRS)/external/zlib_archive",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/zlib_archive",
-					"$(TULSI_BWRS)/external/com_github_glog_glog/src",
-					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				OTHER_CFLAGS = (
-					"-DGLES_SILENCE_DEPRECATION=1",
 					"-DMEDIAPIPE_PROFILER_AVAILABLE",
 					"-D_FORTIFY_SOURCE=1",
 					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
@@ -5212,7 +5234,7 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
+				PRODUCT_NAME = _idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
@@ -5255,13 +5277,56 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
+				PRODUCT_NAME = _idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Debug;
 		};
 		3E53954BFDDC19D40000001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_WR)/external/google_toolbox_for_mac",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_WR)/external/com_google_protobuf/src",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+					"$(TULSI_WR)/external/zlib_archive",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/zlib_archive",
+					"$(TULSI_WR)/external/com_github_glog_glog/src",
+					"$(TULSI_WR)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_gflags_gflags/_virtual_includes/gflags",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_BWRS)/external/google_toolbox_for_mac",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/external/com_google_protobuf/src",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+					"$(TULSI_BWRS)/external/zlib_archive",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/zlib_archive",
+					"$(TULSI_BWRS)/external/com_github_glog_glog/src",
+					"$(TULSI_BWRS)/bazel-tulsi-includes/x/x/external/com_github_glog_glog/src",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__CLANG_SUPPORT_DYN_ANNOTATION__",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		3E53954BFDDC19D40000001E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5280,7 +5345,7 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D40000001E /* Debug */ = {
+		3E53954BFDDC19D40000001F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5302,7 +5367,7 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D40000001F /* Debug */ = {
+		3E53954BFDDC19D400000020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5321,7 +5386,7 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D400000020 /* Debug */ = {
+		3E53954BFDDC19D400000021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5364,7 +5429,7 @@
 			};
 			name = Debug;
 		};
-		3E53954BFDDC19D400000021 /* Debug */ = {
+		3E53954BFDDC19D400000022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -5388,8 +5453,8 @@
 			buildConfigurations = (
 				3E53954BFDDC19D400000014 /* Debug */,
 				3E53954B04D8CE9F00000014 /* Release */,
-				2327288223807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327288323807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				232728F72380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728F82380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5410,8 +5475,8 @@
 			buildConfigurations = (
 				3E53954BFDDC19D400000019 /* Debug */,
 				3E53954B04D8CE9F00000019 /* Release */,
-				2327286C23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286D23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				232728E12380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728E22380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5419,10 +5484,10 @@
 		C95333A51A63357800000000 /* Build configuration list for PBXNativeTarget "_idx_mediapipe_framework_ios_D556C68D_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000020 /* Debug */,
-				3E53954B04D8CE9F00000020 /* Release */,
-				2327286023807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286123807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000021 /* Debug */,
+				3E53954B04D8CE9F00000021 /* Release */,
+				232728D52380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728D62380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5432,8 +5497,8 @@
 			buildConfigurations = (
 				3E53954BFDDC19D400000010 /* Debug */,
 				3E53954B04D8CE9F00000010 /* Release */,
-				2327287223807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287323807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				232728E72380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728E82380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5463,10 +5528,10 @@
 		C95333A557551D8700000000 /* Build configuration list for PBXNativeTarget "_idx_mediapipe_layer_renderer_gl_calculator_helper_ios_mediapipe_framework_ios_mediapipe_gl_view_renderer_AC254A77_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000001C /* Debug */,
-				3E53954B04D8CE9F0000001C /* Release */,
-				2327286423807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286523807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000001D /* Debug */,
+				3E53954B04D8CE9F0000001D /* Release */,
+				232728D92380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728DA2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5474,10 +5539,10 @@
 		C95333A55F62047F00000000 /* Build configuration list for PBXNativeTarget "_idx_profiler_resource_util_B1F7EC4E_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000000A /* Debug */,
-				3E53954B04D8CE9F0000000A /* Release */,
-				2327286E23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286F23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000000D /* Debug */,
+				3E53954B04D8CE9F0000000D /* Release */,
+				232728E32380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728E42380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5485,10 +5550,10 @@
 		C95333A55F8CADC000000000 /* Build configuration list for PBXNativeTarget "_idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000018 /* Debug */,
-				3E53954B04D8CE9F00000018 /* Release */,
-				2327286823807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286923807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000001B /* Debug */,
+				3E53954B04D8CE9F0000001B /* Release */,
+				232728DD2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728DE2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5496,10 +5561,10 @@
 		C95333A56750B5AE00000000 /* Build configuration list for PBXNativeTarget "_idx_pixel_buffer_pool_util_07EBF31A_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000000E /* Debug */,
-				3E53954B04D8CE9F0000000E /* Release */,
-				2327286A23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286B23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000000F /* Debug */,
+				3E53954B04D8CE9F0000000F /* Release */,
+				232728DF2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728E02380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5507,10 +5572,10 @@
 		C95333A569635DB500000000 /* Build configuration list for PBXNativeTarget "_idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000000B /* Debug */,
-				3E53954B04D8CE9F0000000B /* Release */,
-				2327287823807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287923807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000000C /* Debug */,
+				3E53954B04D8CE9F0000000C /* Release */,
+				232728ED2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728EE2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5529,10 +5594,21 @@
 		C95333A575A4E95900000000 /* Build configuration list for PBXNativeTarget "_idx_output_stream_manager_calculator_node_default_input_stream_handler_graph_output_stream_in_order_output_stream_handler_input_stream_handler_output_stream_handler_3693D1F0_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000000D /* Debug */,
-				3E53954B04D8CE9F0000000D /* Release */,
-				2327286623807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286723807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000011 /* Debug */,
+				3E53954B04D8CE9F00000011 /* Release */,
+				232728DB2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728DC2380B00300D61AE6 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95333A57628528C00000000 /* Build configuration list for PBXNativeTarget "_idx_ARAngryBirds_2F58DD3B_ios_min10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E53954BFDDC19D400000008 /* Debug */,
+				3E53954B04D8CE9F00000008 /* Release */,
+				232728C52380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728C62380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5540,10 +5616,10 @@
 		C95333A57CC2FF1D00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjectDetectionGpuAppLibrary_EdgeDetectionGpuAppLibrary_FaceDetectionCpuAppLibrary_FaceDetectionGpuAppLibrary_HandDetectionGpuAppLibrary_HandTrackingGpuAppLibrary_ObjectDetecti_etc_19576A55_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000001B /* Debug */,
-				3E53954B04D8CE9F0000001B /* Release */,
-				2327285623807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285723807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000001C /* Debug */,
+				3E53954B04D8CE9F0000001C /* Release */,
+				232728CB2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728CC2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5551,10 +5627,10 @@
 		C95333A57CDAC61700000000 /* Build configuration list for PBXNativeTarget "_idx_gl_context_21B0DC61_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000013 /* Debug */,
-				3E53954B04D8CE9F00000013 /* Release */,
-				2327285A23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285B23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000017 /* Debug */,
+				3E53954B04D8CE9F00000017 /* Release */,
+				232728CF2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728D02380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5573,10 +5649,10 @@
 		C95333A59200642C00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2327284E23807F2A00D61AE6 /* Debug */,
-				2327284F23807F2A00D61AE6 /* Release */,
-				2327285023807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285123807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				232728C12380B00300D61AE6 /* Debug */,
+				232728C22380B00300D61AE6 /* Release */,
+				232728C32380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728C42380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5584,10 +5660,10 @@
 		C95333A5A070CD8900000000 /* Build configuration list for PBXNativeTarget "_idx_mediapipe_input_sources_ios_D2A2AE4C_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000001E /* Debug */,
-				3E53954B04D8CE9F0000001E /* Release */,
-				2327286223807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327286323807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000001F /* Debug */,
+				3E53954B04D8CE9F0000001F /* Release */,
+				232728D72380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728D82380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5595,10 +5671,10 @@
 		C95333A5A15D65E200000000 /* Build configuration list for PBXNativeTarget "_idx_gpu_buffer_format_gl_quad_renderer_A0DA5A6F_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000001D /* Debug */,
-				3E53954B04D8CE9F0000001D /* Release */,
-				2327285E23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285F23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000001E /* Debug */,
+				3E53954B04D8CE9F0000001E /* Release */,
+				232728D32380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728D42380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5608,8 +5684,8 @@
 			buildConfigurations = (
 				3E53954BFDDC19D40000001A /* Debug */,
 				3E53954B04D8CE9F0000001A /* Release */,
-				2327287423807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287523807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				232728E92380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728EA2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5617,10 +5693,10 @@
 		C95333A5A49A968E00000000 /* Build configuration list for PBXNativeTarget "_idx_MPPGraphGPUData_641C4BE8_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000008 /* Debug */,
-				3E53954B04D8CE9F00000008 /* Release */,
-				2327285223807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285323807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000009 /* Debug */,
+				3E53954B04D8CE9F00000009 /* Release */,
+				232728C72380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728C82380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5639,10 +5715,10 @@
 		C95333A5B8E14D8300000000 /* Build configuration list for PBXNativeTarget "_idx_gpu_buffer_format_1C5129DA_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000001F /* Debug */,
-				3E53954B04D8CE9F0000001F /* Release */,
-				2327285C23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285D23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000020 /* Debug */,
+				3E53954B04D8CE9F00000020 /* Release */,
+				232728D12380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728D22380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5650,10 +5726,10 @@
 		C95333A5C2C7CE0F00000000 /* Build configuration list for PBXNativeTarget "_idx_MPPGraphGPUData_641C4BE8_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000012 /* Debug */,
-				3E53954B04D8CE9F00000012 /* Release */,
-				2327285423807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285523807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000013 /* Debug */,
+				3E53954B04D8CE9F00000013 /* Release */,
+				232728C92380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728CA2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5661,8 +5737,8 @@
 		C95333A5C5049C0A00000000 /* Build configuration list for PBXNativeTarget "mediapipe-objc-mediapipe_framework_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000021 /* Debug */,
-				3E53954B04D8CE9F00000021 /* Release */,
+				3E53954BFDDC19D400000022 /* Debug */,
+				3E53954B04D8CE9F00000022 /* Release */,
 				3E53954B2E2F1ED700000008 /* __TulsiTestRunner_Debug */,
 				3E53954B7D58E0FC00000008 /* __TulsiTestRunner_Release */,
 			);
@@ -5672,10 +5748,10 @@
 		C95333A5C621233600000000 /* Build configuration list for PBXNativeTarget "_idx_profiler_resource_util_B1F7EC4E_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000016 /* Debug */,
-				3E53954B04D8CE9F00000016 /* Release */,
-				2327287023807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287123807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000015 /* Debug */,
+				3E53954B04D8CE9F00000015 /* Release */,
+				232728E52380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728E62380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5694,10 +5770,10 @@
 		C95333A5D4B6D1EA00000000 /* Build configuration list for PBXNativeTarget "_idx_util_calculator_graph_gl_simple_calculator_gpu_buffer_multi_pool_luminance_calculator_sink_sobel_edges_calculator_F46C99BE_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000000C /* Debug */,
-				3E53954B04D8CE9F0000000C /* Release */,
-				2327287C23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287D23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000000A /* Debug */,
+				3E53954B04D8CE9F0000000A /* Release */,
+				232728F12380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728F22380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5716,10 +5792,10 @@
 		C95333A5DD5ED60E00000000 /* Build configuration list for PBXNativeTarget "_idx_gl_context_21B0DC61_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000011 /* Debug */,
-				3E53954B04D8CE9F00000011 /* Release */,
-				2327285823807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327285923807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000012 /* Debug */,
+				3E53954B04D8CE9F00000012 /* Release */,
+				232728CD2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728CE2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5727,10 +5803,10 @@
 		C95333A5E49B651E00000000 /* Build configuration list for PBXNativeTarget "_idx_validated_graph_config_calculator_base_calculator_context_calculator_context_manager_calculator_contract_calculator_registry_util_calculator_state_callback_packet_calculator_cl_etc_691849FA_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000009 /* Debug */,
-				3E53954B04D8CE9F00000009 /* Release */,
-				2327288023807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327288123807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000000B /* Debug */,
+				3E53954B04D8CE9F0000000B /* Release */,
+				232728F52380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728F62380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5738,10 +5814,10 @@
 		C95333A5E912BC5400000000 /* Build configuration list for PBXNativeTarget "_idx_topologicalsorter_collection_item_id_gpu_service_registration_token_EF984431_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000015 /* Debug */,
-				3E53954B04D8CE9F00000015 /* Release */,
-				2327287A23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287B23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000016 /* Debug */,
+				3E53954B04D8CE9F00000016 /* Release */,
+				232728EF2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728F02380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5749,10 +5825,10 @@
 		C95333A5ECC4F26900000000 /* Build configuration list for PBXNativeTarget "_idx_util_calculator_graph_gpu_buffer_multi_pool_sink_D2E08072_ios_min13.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D400000017 /* Debug */,
-				3E53954B04D8CE9F00000017 /* Release */,
-				2327287E23807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287F23807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D400000018 /* Debug */,
+				3E53954B04D8CE9F00000018 /* Release */,
+				232728F32380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728F42380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5760,10 +5836,10 @@
 		C95333A5FC5D3D5800000000 /* Build configuration list for PBXNativeTarget "_idx_shader_util_gl_simple_shaders_C4F830E5_ios_min10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E53954BFDDC19D40000000F /* Debug */,
-				3E53954B04D8CE9F0000000F /* Release */,
-				2327287623807F2A00D61AE6 /* __TulsiTestRunner_Debug */,
-				2327287723807F2A00D61AE6 /* __TulsiTestRunner_Release */,
+				3E53954BFDDC19D40000000E /* Debug */,
+				3E53954B04D8CE9F0000000E /* Release */,
+				232728EB2380B00300D61AE6 /* __TulsiTestRunner_Debug */,
+				232728EC2380B00300D61AE6 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
