@@ -43,7 +43,7 @@ genrule(
 
 ios_application(
     name = "HandTrackingGpuApp",
-    bundle_id = "com.angry-birds.junc",
+    bundle_id = "com.TouristApp.FlightApp",
     families = [
         "iphone",
         "ipad",

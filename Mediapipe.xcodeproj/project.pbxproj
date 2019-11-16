@@ -3428,13 +3428,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "//mediapipe/examples/ios/handtrackinggpu:HandTrackingGpuApp";
-				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = mediapipe/examples/ios/handtrackinggpu;
@@ -4255,19 +4253,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "//mediapipe/examples/ios/handtrackinggpu:HandTrackingGpuApp";
-				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.1.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
 				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -4497,19 +4493,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "//mediapipe/examples/ios/handtrackinggpu:HandTrackingGpuApp";
-				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.1.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "--version";
 				OTHER_LDFLAGS = "--version";
 				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -4707,13 +4701,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "//mediapipe/examples/ios/handtrackinggpu:HandTrackingGpuApp";
-				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.angry-birds.junc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouristApp.FlightApp;
 				PRODUCT_NAME = HandTrackingGpuApp;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = mediapipe/examples/ios/handtrackinggpu;
